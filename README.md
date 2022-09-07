@@ -1,4 +1,4 @@
-# lab01_cs311f2019
+# lab01_cs311f2022
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
 repository contains the starter files for Laboratory 1 assignment in Computer Science 311.
