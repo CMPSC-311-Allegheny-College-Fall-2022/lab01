@@ -1,50 +1,33 @@
 # check the technical writing for various characteristics
-- writing/reflection.md:
-    - description: Ensure that reflection.md file exists in the writing/ directory
+- writing/report.md:
+    - description: Ensure that report.md file exists in the writing/ directory
       check: ConfirmFileExists
-    - description: Write a minimum number of meaningful words (80) in the reflection
+    - description: Write a minimum number of meaningful words (200) in the report
       check: CountFileWords
       options:
-        count: 80
+        count: 200
         exact: false
     - description: Confirm that the markdown file has the correct number of headers
       check: CountMarkdownTags
       options:
         tag: heading
-        count: 4
+        count: 9
         exact: true
-    - description: Complete all TODOs, remove the TODO markers in the reflection.md
+    - description: Complete all TODOs, remove the TODO markers in the report.md
       check: MatchFileFragment
       options:
         fragment: TODO
         count: 0
         exact: true
-    - description: Delete the 'Add Your Name Here' prompt in the reflection file
+    - description: Delete the 'Add Team Member Names' prompt in the report file
       check: MatchFileFragment
       options:
-        fragment: "Add Your Name Here"
+        fragment: "Add Team Member Names"
         count: 0
         exact: true
 
-# run the program and confirm the existence of fragments in its output
-- description: 'Run the program and confirm the correct output in ascending order: [4, 15, 23]'
-  check: MatchCommandFragment
-  options:
-    command: 'cd src; python sort.py 23 4 15'
-    fragment: [4, 15, 23]
-    count: 1
-    exact: true
-
-# run the program and confirm the existence of fragments in its output
-- description: 'Run the program and confirm the correct output in descending order: [23, 15, 4]'
-  check: MatchCommandFragment
-  options:
-    command: 'cd src; python sort.py desc 23 4 15'
-    fragment: [23, 15, 4]
-    count: 1
-    exact: true
 # count number of commits in the GitHub repository
-- description: Have at least a specific minimum number of commits (6) in repository
+- description: Have at least a specific minimum number of commits (12) in repository
   check: CountCommits
   options:
-    count: 6
+    count: 12
