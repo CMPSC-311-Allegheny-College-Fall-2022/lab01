@@ -7,7 +7,7 @@ Activity                   | Deadline
 Races:                     | September 15th, 2022 at 3pm
 Part 2 Idea Due:           | September 15th, 2022 by midnight
 Project Walkthrough:       | September 22nd, 2022 during lab
-Demo and Final Submission: | September 29th, 2022 by 2:30pm   |
+Demo and Final Submission: | September 27th, 2022 by 9:30am   |
 
 ## Class Community Guidelines
 
@@ -65,7 +65,7 @@ Instructor will review proposed project ideas and notify you of approval or alte
 
 During the lab session on Thursday, September 22nd, each team will participate in the project walk-through process. Project walkthrough is an informal process where the instructor facilitates the process of reviewing the progress of the project and the written code. The purpose of this walkthrough is to motivate continuous progression on the project, identification of any conceptual issues, and detection of any technical errors. When the walkthrough is finished, the authors of the project are responsible for taking the necessary actions to correct the identified issues.
 
-By this project walkthrough, each team should have identified the robot they plan to develop, and have started writing some code. During the walkthrough, the team members will collaboratively lead the walkthrough process, which should last 5-10 minutes for each team. Each team should:
+By this project walkthrough, each team should have identified the robot they plan to develop, and have implemented a significant portion of their intended solution. During the walkthrough, the team members will collaboratively lead the walkthrough process, which should last 5-10 minutes for each team. Each team should:
 
 - Describe the chosen task.
 - Explain and demonstrate the written code.
@@ -73,7 +73,7 @@ By this project walkthrough, each team should have identified the robot they pla
 
 ## Project Demonstration
 
-At the beginning of the lab session on Wednesday, September 29th, each team will be given an opportunity to demonstrate their project. When the lab session starts, teams will be given a few minutes to set up their demonstrations and get them running. Then, class members will participate in an interactive demonstration session, where everyone will be able to view each demonstration.
+At the beginning of the class session on Tuesday, September 27th, each team will be given an opportunity to demonstrate their project. When the lab session starts, teams will be given a few minutes to set up their demonstrations and get them running. Then, class members will participate in an interactive demonstration session, where everyone will be able to view each demonstration.
 
 ## Assignment Assessment
 
