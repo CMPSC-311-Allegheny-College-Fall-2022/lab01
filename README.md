@@ -34,7 +34,7 @@ For the first portion of the project, we will hold robotic racing challenges dur
 ### Starting with the robot
 
 - First, begin charging the battery, located in the little brown box.
-- Then, it is time to start building your robot. Follow [gopigo's step-by-step instructions](gopigo.io/start).
+- Then, it is time to start building your robot. Follow [gopigo's step-by-step instructions](https://gopigo.io/start).
 - Once your robot is built, you can connect to the robot by following instructions for [pairing gopigo](https://gopigo.io/pairing-gopigo-os/).
 
   **Note:** When you are done using GoPiGo, turn off the robot first. Then, after the robot has shut down completely, turn off the rechargeable battery pack. If you turn off the battery before the robot, you run the risk of corrupting the microSD card.
