@@ -1,4 +1,4 @@
-# Project 01: Building Ethical and Aggressive Robots
+# Project 1: Building Ethical and Aggressive Robots
 
 ## Timeline
 
