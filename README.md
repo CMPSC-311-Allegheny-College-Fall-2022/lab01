@@ -1,23 +1,12 @@
 # Project 1: Building Ethical and Aggressive Robots
 
-## Timeline
+## Hardware Requirements
 
-Activity                   | Deadline
--------------------------- | --------------------------------
-Races:                     | September 15th, 2022 at 3pm
-Part 2 Idea Due:           | September 15th, 2022 by midnight
-Project Walkthrough:       | September 22nd, 2022 during lab
-Demo and Final Submission: | September 27th, 2022 by 9:30am   |
-
-## Class Community Guidelines
-
-Throughout the completion of this project you must adhere to the [community guidelines](https://github.com/CMPSC-311-Allegheny-College-Fall-2022/course-information/blob/main/community_guidelines.md) that we developed as a class. To report any violations of the code of conduct, please submit an [anonymous form](https://forms.gle/tePfnLY12hyN1Xbd6). Students who think that the class should revise some aspect of the guidelines must use the GitHub issue tracker for that repository to suggest, discuss, and implement any required changes.
-
-By working on and completing this assignment you agree to use the hardware given to you in a responsible manner. Each team is responsible for the safety and security of the robot while it is in your possession. You are allowed to take the robots used in this project outside of ALIC but you have to return all parts at the completion of this project, or if requested, at the end of the semester.
+This project uses [GoPiGo Raspberry Pi robots](https://gopigo.io/). The instructions assume that the robots have not been built yet and that Python programming language is to be used for the implementation.
 
 ## Introduction
 
-This project assignment invites you to work in a team to implement an ethical and/or aggressive robotic behavior while learning how to use `gopigo` robot and program it using Python programming language with a Raspberry Pi. This project consists of two portions. First, using the base `gopigo` robot, teams will participate in the robotic racing competitions during the next lab session. Secondly, teams will design a robotic application using `gopigo` for community demonstrations. Teams are also responsible for writing a detailed report, stored in the file `writing/report.md`. This is a Markdown file that must adhere to the standards described in the [Markdown Syntax Guide](https://guides.github.com/features/mastering-markdown/).
+This project assignment invites you to work in a team to implement an ethical and/or aggressive robotic behavior while learning how to use `gopigo` robot and program it using Python programming language with a Raspberry Pi. This project consists of two portions. First, using the base `gopigo` robot, teams will participate in the robotic racing competitions. Secondly, teams will design a robotic application using `gopigo` for community demonstrations. Teams are also responsible for writing a detailed report, stored in the file `writing/report.md`. This is a Markdown file that must adhere to the standards described in the [Markdown Syntax Guide](https://guides.github.com/features/mastering-markdown/). 
 
 ## Learning
 
@@ -29,7 +18,7 @@ To learn about robotics ethics please refer to an article titled [Robot Ethics: 
 
 ### 1\. Robotic Races
 
-For the first portion of the project, we will hold robotic racing challenges during the beginning of the lab on Thursday, September 15th. You will need to build your robot and program it to be able to complete in a spring and box pushing races. You can elect to develop either an ethical (e.g., respectful) or an aggressive (e.g., interfering) robot behavior.
+For the first portion of the project, we will hold robotic racing challenges. You will need to build your robot and program it to be able to complete in a spring and box pushing races. You can elect to develop either an ethical (e.g., respectful) or an aggressive (e.g., interfering) robot behavior.
 
 ### Starting with the robot
 
@@ -50,20 +39,20 @@ All robots will begin on the same line. The end line will be marked with tape. R
 
 ### 2\. Robot Design for Community Demonstrations
 
-During the second portion of the project, each team will select a task for the robot to complete and then design and implement a `gopigo` robot to complete that task. This part of the project will be showcased during the community event this semester. Since there are no specific requirements or guidelines for this portion of the project, to ensure fairness in the amount of work you dedicate to this project, each team's selected task (what your robot will do) has to be approved by the instructor. In general, each team either needs to propose a unique robot design (e.g., the need to enhance the robot) and a solution for a simple task or a simple design (e.g., minimal need for robot restructuring) with a solution for a more complex task (e.g., involving multiple sensors). You can explore [project ideas at the gopigo](https://gopigo.io/projects/).
+During the second portion of the project, each team will select a task for the robot to complete and then design and implement a `gopigo` robot to complete that task. This part of the project will be showcased during the community outreach event. Since there are no specific requirements or guidelines for this portion of the project, to ensure fairness in the amount of work you dedicate to this project, each team's selected task (what your robot will do) has to be approved by the instructor. In general, each team either needs to propose a unique robot design (e.g., the need to enhance the robot) and a solution for a simple task or a simple design (e.g., minimal need for robot restructuring) with a solution for a more complex task (e.g., involving multiple sensors). You can explore [project ideas at the gopigo](https://gopigo.io/projects/).
 
 Additionally, since this part of the project will be used as an educational resource to get our local community (think, families with children) excited about computing, each team needs to develop concrete motivation for the educational purposes of your robotic design and development. Article on [Educational Robotics and Robot Creativity: An Interdisciplinary Dialogue](https://www.frontiersin.org/articles/10.3389/frobt.2021.662030/full) will give you some background into robotics used for education. Specifically, your project should have:
 
 - Three learning objectives for the proposed demonstration.
 - A hands-on component, which will either allow participants to experiment with the robot or observe varying performance of the robot under various scenarios.
 
-You are required to finalize your idea by the end of the day (lab day) on September 15th and write about it in an appropriate subsection of the `report.md`'s "Planning for Robot Design for Community Demonstrations" section. Your team also needs to identify a timeline for completing this portion of the lab and include it in the table in the report. If you are in need of additional supplies that you could not find in ALIC, you need to include the list of supplies in the appropriate subsection of the report as well.
+As you finalize your idea, please fill out the appropriate subsection of the `report.md`'s "Planning for Robot Design for Community Demonstrations" section. Your team also needs to identify a timeline for completing this portion of the lab and include it in the table in the report. If you are in need of additional supplies, you need to include the list of supplies in the appropriate subsection of the report as well.
 
 Instructor will review proposed project ideas and notify you of approval or alternate suggestions within 24 hours.
 
 ## Project Walkthrough
 
-During the lab session on Thursday, September 22nd, each team will participate in the project walk-through process. Project walkthrough is an informal process where the instructor facilitates the process of reviewing the progress of the project and the written code. The purpose of this walkthrough is to motivate continuous progression on the project, identification of any conceptual issues, and detection of any technical errors. When the walkthrough is finished, the authors of the project are responsible for taking the necessary actions to correct the identified issues.
+During the middle of the project timeline, each team will participate in the project walk-through process. Project walkthrough is an informal process where the instructor facilitates the process of reviewing the progress of the project and the written code. The purpose of this walkthrough is to motivate continuous progression on the project, identification of any conceptual issues, and detection of any technical errors. When the walkthrough is finished, the authors of the project are responsible for taking the necessary actions to correct the identified issues.
 
 By this project walkthrough, each team should have identified the robot they plan to develop, and have implemented a significant portion of their intended solution. During the walkthrough, the team members will collaboratively lead the walkthrough process, which should last 5-10 minutes for each team. Each team should:
 
@@ -73,7 +62,7 @@ By this project walkthrough, each team should have identified the robot they pla
 
 ## Project Demonstration
 
-At the beginning of the class session on Tuesday, September 27th, each team will be given an opportunity to demonstrate their project. When the lab session starts, teams will be given a few minutes to set up their demonstrations and get them running. Then, class members will participate in an interactive demonstration session, where everyone will be able to view each demonstration.
+At the due date of the project, each team will be given an opportunity to demonstrate their project. Teams will be given a few minutes to set up their demonstrations and get them running. Then, class members will participate in an interactive demonstration session, where everyone will be able to view each demonstration.
 
 ## Assignment Assessment
 
